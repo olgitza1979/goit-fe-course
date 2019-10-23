@@ -1,14 +1,15 @@
 html {
   box-sizing: border-box;
+  text-align: center;
 }
 *,
-*:: before,
-*:: after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
 body{
-  font-family: 'Playfair Display', 'ubuntu',serif;
+  font-family: 'Playfair Display', 'Ubuntu',serif;
   color: rgb(98, 98, 98);
   font-size: 14px;
   line-height: 24px;
@@ -16,7 +17,7 @@ body{
 
 .container {
   display: inline-block;
-  width: 901px;
+  width: 902px;
   margin: 0 auto;
 }
 
@@ -59,7 +60,11 @@ body{
   display: inline-block;
   margin: 0;
   padding: 0;
-  width: 421px;
+  width: 420px;
+  margin-right:calc(62px - 4px);
+}
+.blogs-articles:nth-last-child(even) {
+  margin-right: 0;
 }
 
 .articles-content-item {
@@ -70,14 +75,9 @@ body{
 
 .articles-list-item {
   display: inline-block;
-  width: 421px;
-  margin-right: calc(60px-4px);
+  width: 420px;
   margin-bottom: 0;
   margin-top: 0;
-}
-
-.articles-list-item:nth-child(2n){
-  margin-right: 0;
 }
 
 .articles-list-item h2{
@@ -94,7 +94,6 @@ img {
 }
 
 .articles-content-description{
-  /* display: inline-block; */
   font-family:"ubuntu";
   font-size: 14px;
   line-height: 17px;
