@@ -45,11 +45,14 @@ body{
   margin-right: 0;
 }
 
-.header-item-hover:hover{
-   color: blue;
+.header-item-hover:hover {
+   color: rgb(0,191,255);
 }
 
-
+/* .header-item-hover:focus {
+  border: none
+  color: rgb(0,191,255); 
+} */
 .header-navigation a{
   color:rgb(98, 98, 98);
   font-family: 'Playfair Display',serif;
