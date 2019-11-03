@@ -40,7 +40,7 @@ body{
   font-size: 30px;
   line-height: 32px;
   font-weight: 300;
-  margin: 38px 0px 100px 42px;
+  margin: 38px 0px 100px 0px;
 }
 
 .logo::first-letter{
@@ -49,10 +49,10 @@ body{
 }
 .header-navigation{
   float: right;
-  width: 463px;
+  /* width: 463px; */
   list-style: none;
   line-height: 11px;
-  margin: 45px 30px 110px 0;
+  margin: 45px 70px 110px 0;
  }
 
 .header-navigation li {
@@ -80,6 +80,7 @@ body{
 
  h2 {
    font-family: 'Roboto', sans-serif;
+   color: #515151;
    font-weight: 900;
    text-align: center;
    font-size: 48px;
@@ -110,9 +111,9 @@ body{
     text-decoration: none
   }
  
-  .features-item:nth-child(4n+1) {
+  /* .features-item:nth-child(4n+1) {
     margin-left: 30px;
-  }  
+  }   */
 
   .wrapper:nth-child(even) {
     margin-bottom: 30px;
@@ -135,7 +136,7 @@ body{
   }
    
   .item-description {
-     width: 255px;
+     /* width: 255px; */
      background-color: #323232;
   
    }
@@ -179,12 +180,12 @@ body{
   .blog-item {
     width: 350px;
     float: left;
-    margin-left: 30px;
+    margin-right: 30px;
   }
 
- .blog-item:last-child {
+ /* .blog-item:last-child {
    margin-right:30px;
- }
+ } */
 
  .blog-item h3 {
     font-family: 'Open Sans', sans-serif;
