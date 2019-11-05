@@ -37,9 +37,10 @@ body{
   float: left;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
-  width: 80px;
+  /* width: 80px; */
   font-size: 30px;
   line-height: 32px;
+  color: #000000;
   font-weight: 300;
   margin: 38px 0px 100px 0px;
 }
