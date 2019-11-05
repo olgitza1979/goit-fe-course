@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
-  width: 1170px;
-  margin: 0 auto; 
+  /* width: 1170px; */
+  /* margin: 0 auto;  */
  }
 * { 
   padding: 0;
@@ -35,6 +35,7 @@ body{
 
 .logo {
   float: left;
+  text-decoration: none;
   font-family: 'Roboto', sans-serif;
   width: 80px;
   font-size: 30px;
@@ -108,20 +109,26 @@ body{
     display: block;
     background-color: #e9f0fd;
     margin-right: 30px;
+    margin-bottom: 30px;
     text-decoration: none
+  }
+
+  .features-item:nth-last-child(-n+4) {
+    margin: 0 30px 100px 0;
+    
   }
  
   /* .features-item:nth-child(4n+1) {
     margin-left: 30px;
   }   */
 
-  .wrapper:nth-child(even) {
+  /* .wrapper:nth-child(even) {
     margin-bottom: 30px;
   }
 
   .wrapper:nth-child(odd) {
     margin-bottom: 100px;
-  }
+  } */
   .item-img {
     background: #e9f0fd;
     display: block;
@@ -170,7 +177,8 @@ body{
 
   /* Blog section */
   .section-wrapper {
-    width: 1170px;
+    
+    /* width: 1170px; */
   }
 
   .blog-img {
