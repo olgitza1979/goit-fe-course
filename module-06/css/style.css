@@ -66,35 +66,16 @@ html {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 14px;
-    
+ 
  } 
   
  .hover-and-pseudo:hover .hover-item{
     transition-duration: 200ms;
     transition-timing-function: linear;
      color:#f38181; 
+     border-bottom: 3px solid #f38181;
+     padding-bottom: 12px; 
   }
-
- .header-pseudo::after {
-    position: absolute;
-    display: block;
-    content: " ";
-    width: 50px;
-    height: 3px;
-    margin: auto;
-    margin-top: 12px;
-    
-    background-image: url(../img/header_pseudoitem.png);
-    text-align: center;
-    opacity: 0;
-    
- }
-
- .hover-and-pseudo:hover .header-pseudo::after {
-     opacity: 1;
-     transition-duration: 200ms;
-     transition-timing-function: linear;
- }
 
  /* service section */
 
@@ -177,6 +158,38 @@ html {
     flex-shrink: 0;
     justify-content: center;
 }
+
+.alarm {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/image1.png);
+}
+.line-graph {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/image2.png); 
+}
+.computer {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/image3.png); 
+}
+.book {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/image4.png);  
+ }
+ .home {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/image5.png);   
+ }
+ .image {
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/image6.png);   
+ } 
+ 
 .service-info-descr{
     display: flex;
    
@@ -266,6 +279,31 @@ html {
     border-width: 0 1px 0 0;
 
 }
+.different-icons:nth-child(1) {
+ 
+    background-image: url(../img/social-icons/facebook.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.different-icons:nth-child(2) {
+ 
+    background-image: url(../img/social-icons/twitter.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.different-icons:nth-child(3) {
+ 
+    background-image: url(../img/social-icons/pinterest.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.different-icons:nth-child(4) {
+ 
+    background-image: url(../img/social-icons/instagram.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .different-icons:nth-last-child(1) {
     border: none;
 }
@@ -276,6 +314,12 @@ html {
     transform: translate(-10px,-10px);
     box-shadow: 10px 10px 0 #95e1d3;
 }
+/* .facebook {
+    display: block;
+    background-image: url(../img/social-icons/facebook.png); 
+    background-repeat: no-repeat;
+    text-align: center;
+} */
 .facebook:hover {
     transition: linear;
     transition-duration: 200ms;
