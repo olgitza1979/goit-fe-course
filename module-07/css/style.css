@@ -1,0 +1,303 @@
+html {
+    box-sizing: border-box;
+     }
+
+  * { 
+    padding: 0;
+    margin: 0; 
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+ 
+  body{
+   
+    background-color: #282828;
+  } 
+     
+   .container {
+      display: block;
+      width: 1400px;
+      margin: 0 auto;
+      background-color: #ffffff;
+    }
+    .wrapper {
+      max-width: 940px;
+      width: 100%;
+      background-color: #ffffff;
+      margin: 0 auto;
+    } 
+
+    /* fonts section */
+    
+  @font-face {
+      font-family: "Wisdom";
+      src: url(../fonts/Wisdom-Script-AJ.woff);
+      font-weight: 400;
+      font-style: normal;
+    }
+
+  @font-face {
+    font-family: 'Droid Serif', arial;
+      src: url(../fonts/DroidSerif.woff);
+      font-weight: 400;
+      font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/montserrat-v14-latin-700.woff2);
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Droid Serif', arial;
+    src: url(../fonts/Droid-Serif-Italic_1.woff);
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/roboto-slab-v10-latin-regular.woff2);
+  }
+
+    /* header section */
+    .header-wrapper {
+      min-height: 65px;
+      background-color: #ffffff;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      /* padding-bottom: 130px; */
+     } 
+  
+    .logo {
+       font-family:"Wisdom",sans-serif;
+       font-size: 26px;
+       text-decoration: none;
+       color: #fedd6c;
+    }
+    .header-item{
+      display: flex;
+      width: 484px;
+      justify-content: space-between;
+      list-style: none;
+      flex-wrap: wrap;
+      align-items: flex-end;
+   }
+  .hover-item {
+    font-family: 'Droid Serif', arial;
+    font-weight: 400;
+    
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+    
+  }
+  .hover-item:hover {
+    color:#fedd6c;
+  }
+
+  /* services section */
+ .services-wrapper {
+  padding-top: 130px;
+  min-height: 520px;
+  background-color: #ffffff;
+  margin: 0 auto;
+ }
+
+ .services-wrapper h2 {
+  font-size: 40px;
+  font-family: "Montserrat";
+  color: rgb(34, 34, 34);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+ }
+ .section-header-text {
+  font-family: 'Droid Serif', arial;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  color: rgb(119, 119, 119);
+  text-align: center;
+ }
+ .services-list {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   list-style: none;
+ }
+
+ .services-item::before {
+  
+   display: block;
+    content: "";
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 88px;
+    margin-bottom: 45px;
+    border-radius: 50%;
+    border: 3px solid rgb(254, 209, 54);
+  background-position: center;
+ }
+ .services-item {
+  flex-basis: 290px;
+  flex-grow: 0;
+   flex-shrink: 0;
+  
+ }
+.services-name {
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(34, 34, 34);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.services-description {
+  font-family: 'Roboto Slab';
+  font-size: 14px;
+  font-family: "RobotoSlab";
+  color: rgb(119, 119, 119);
+  line-height: 30px;
+  text-align: center;
+  margin-bottom:120px;
+}
+
+.icon-ecommerce::before {
+  background-image: url(../img/icon1.png);
+}
+.icon-responsiveweb::before {
+  background-image: url(../img/icon2.png);
+}
+.icon-websecurity::before {
+  background-image: url(../img/icon3.png);
+}
+/* 
+contacts section */
+.container-black {
+  min-height: 677px;
+  display: block;
+  width: 1400px;
+  margin: 0 auto;
+  background-color:#222222;
+  position: relative;
+   
+}
+.contacts-wrapper{
+  width: 290px;
+  height: 120px;
+  background-color:#222222;
+  position: absolute;
+  top: 110px;
+  left: 555px;
+}
+
+.contacts-wrapper h2 {
+  font-size: 40px;
+  font-family: "Montserrat";
+  color: rgb(255,255,255);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 25px;
+  /* padding-top: 110px; */
+ } 
+ .map {
+   display: flex;
+   justify-content: flex-end;
+ }
+
+ /* form section */
+ .form-wrapper {
+   width: 940px; 
+   position: absolute;
+   top: 256px;
+   left: 230px;
+  }
+
+.form-flex{
+  display: flex;
+   justify-content: space-between;
+}
+
+ .input-wrap {
+   padding-bottom:30px;
+ }
+ input, textarea {
+   border: 1px solid #000000;
+   width: 455px;
+   padding:20px;
+   border-radius: 5px;
+ }
+ input::placeholder, textarea::placeholder {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(187, 187, 187);
+  font-weight: bold;
+  text-transform: uppercase;
+ }
+
+ textarea {
+   min-height: 233px;
+   resize: none;
+ }
+
+ .input-wrap input:required:valid:focus {
+   outline: 5px solid green;
+ } 
+
+ .input-wrap input:required:invalid:focus {
+  outline: 5px solid red;
+} 
+
+textarea:valid:focus {
+  outline: 5px solid green;
+}
+textarea:invalid:focus {
+  outline: 5px solid red;
+}
+
+input[type="submit"] {
+  border: none;
+  background-color: #fed136;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.submit-wrap {
+  width: 50%;
+  height: 68px;
+  margin: 0 auto;
+}
+
+
+ 
+
+
+
+
+
+ 
+ 
+ 
+  
+   
+  
+  
