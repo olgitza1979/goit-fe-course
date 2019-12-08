@@ -142,7 +142,7 @@ html {
 }
 .partner-item {
   margin-bottom: 45px;
-  border: 1px solid black;
+  
 }
 .partner-item:nth-last-child(1) {
   margin-bottom: 30px;
@@ -276,13 +276,10 @@ html {
 }
 
 @media (min-width: 941px) {
-  
-
-  .toplayer {
-   
-    display: block;
-    min-height: 700px;
-    width: 100%;
+    .toplayer {
+       display: block;
+       min-height: 700px;
+       width: 100%;
     
     background-image: url(../img/mobile/main_photo.png);
     background-repeat: no-repeat;
