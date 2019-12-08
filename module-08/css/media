@@ -1,0 +1,7 @@
+@media (min-width: 321px) and (max-width: 768px) {
+    .header-navigation {
+        display:flex;
+        justify-content:space-between;
+
+    }
+}
