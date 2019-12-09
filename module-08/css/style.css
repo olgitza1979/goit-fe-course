@@ -222,7 +222,6 @@ html {
 
 @media (min-width: 749px) and (max-width: 940px) {
   .header-wrapper {
-  
     min-width: 748px;
     width: 100%;
     height: 700px;
@@ -261,10 +260,9 @@ html {
       .partner-list {
         max-width: 492px;
         width: 100%;
-       
         display: flex;
-       justify-content: space-between;
-       flex-wrap: wrap;
+        justify-content: space-between;
+        flex-wrap: wrap;
    }
 
    .partner-item {
@@ -280,16 +278,16 @@ html {
        display: block;
        min-height: 700px;
        width: 100%;
-    
-    background-image: url(../img/mobile/main_photo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+       background-image: url(../img/mobile/main_photo.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+  }
+  .header-logo {
+     margin: 0;
   }
 
   .header-wrapper {
-  
     min-width: 942px;
-   
     height: 700px;
     width: 100%;
     background-image: none;
@@ -310,8 +308,8 @@ html {
     }
     
     .header-wrapper p {
-      /* width: 404px;
-      margin: auto; */
+      width: 404px;
+      margin: auto;
       margin-bottom: 40px;
     }
 
@@ -330,14 +328,12 @@ html {
 
    .partner-item {
      flex-basis: 222px;
-     
     }
 
     .partner-item:nth-last-child(-n+4) {
       margin-bottom: 0;
     }
-   
-   
+ 
 }
 
 
