@@ -19,22 +19,30 @@ html {
 
   
   /* header section */
- 
+  .toplayer {
+    display: block;
+    min-height: 540px;
+    width: 100%;
+    background-image: url(../img/mobile/Mobile_dark.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
   .header-wrapper {
     max-width: 320px;
+    min-height: 540px;
     width: 100%;
-    
-    height: 540px; 
+    background-image: none;
     margin: auto;
-    background-image: url(../img/mobile/Mobile_dark.png);
-   
   }
    .header-links {
-    padding: 20px 62px 115px 62px;
+    
+    padding-top: 20px;
+    padding-bottom: 115px;
     display: flex;
     flex-wrap: nowrap;
     list-style: none;
-   
+    justify-content: center;
+  
   }
 
  .header-item, h2 {
@@ -50,28 +58,29 @@ html {
         border: 2px solid transparent;
         border-radius: 20px;
         padding: 10px;
-
  }
 
  .header-item:nth-child(1) {
-   margin-right: 6px;
+   margin-right: 10px;
  }
 
   .header-logo {
-       margin-bottom: 40px;
-       text-align: center;
+    margin: 0;
+    
+    padding-bottom: 40px;
+    text-align: center;
   }
 
-  .header-logo a{
+  .header-logo a {
     font-size: 20px;
+    line-height: 50px;
     text-transform: uppercase;
     text-decoration: none;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    text-align: center;
-    
-  }
+    /* text-align: center; */
+ }
 
   .header-wrapper h2 {
     font-size: 30px;
@@ -98,14 +107,12 @@ html {
 }
 .header-button {
   display: block;
-  
   text-decoration: none;
   width: 280px;
   height: 40px;
   border: none;
   border-radius: 20px;
   background: rgb(255, 78, 80);
-  
   font-size: 14px;
   line-height: 30px;
   font-family: "Montserrat";
@@ -114,12 +121,13 @@ html {
   line-height: 30px;
   text-align: center;
   margin: 15px auto;
-  
+  padding: 3px 0;
 }
+
 
 /* partner section  */
 .main-wrapper {
-    /* height: 1180px; */
+    
     max-width: 320px;
     width: 100%;
     margin: 0 auto;
@@ -160,23 +168,26 @@ html {
   background-color: rgb(251, 251, 251);
 }
 
-.partner-photo-icon {
-  width: 41px;
-  height: 41px;
-  position: absolute;
-  bottom: -5px;
-  right: -5px;
-}
-.first-icon {
+.partner-photo::after {
+     display: block;
+     content: "";
+     width: 41px;
+     height: 41px;
+     position: absolute;
+     right: -5px;
+     bottom: -5px;
+  }
+ 
+.ellipse1::after {
   background-image: url(../img/partner1/after1.png);
 }
-.second-icon {
+.ellipse2::after {
   background-image: url(../img/partner2/after2.png);
 }
-.third-icon {
+.ellipse3::after {
   background-image: url(../img/partner3/after3.png);
 }
-.fourth-icon {
+.ellipse4::after {
   background-image: url(../img/partner4/after4.png);
 }
 .partner-name {
@@ -196,44 +207,39 @@ html {
   text-decoration: none;
   width: 282px;
   height: 40px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: rgb(255, 78, 80);
+  border: solid rgb(255, 78, 80);
   border-radius: 20px;
   background-color: rgb(255, 255, 255);
-  
   font-size: 14px;
   line-height: 30px;
   font-family: "Montserrat";
   color: rgb(255, 78, 80);
   font-weight: 700;
-  line-height: 30px;
   text-align: center;
-  margin: 0 auto;
-  margin-bottom: 60px;
- 
+  margin: 0 auto 60px;
+  padding: 3px 0;
 }
 
-@media (min-widht:320px) and (max-width:748px) {
-  .header-wrapper {
-    background-image: url(../img/mobile/Mobile_dark.png); 
-  }
-}
 
-@media (min-width: 749px) and (max-width: 940px) {
-  .header-wrapper {
-    min-width: 748px;
-    width: 100%;
+@media (min-width: 748px) and (max-width: 940px) {
+  .toplayer {
+    display: block;
     height: 700px;
-    /* height: 100%; */
+    width: 100%;
     background-image: url(../img/mobile/main_tablet.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  .header-wrapper {
+    max-width: 748px;
+    width: 100%;
+    min-height: 700px;
+    background-image: none;
     padding-left: 40px;
     padding-right: 40px;
-    background-size: cover;
-    background-repeat: no-repeat;
   }
   .header-navigation{
-     padding-top: 20px;
+    padding-top: 45px;
      display: flex;
      justify-content: space-between;
      flex-direction: row-reverse;
@@ -241,7 +247,6 @@ html {
     }
 
     .header-links {
-      padding: 0;
       display: flex;
       justify-content: flex-end;
     }
@@ -282,19 +287,18 @@ html {
        background-repeat: no-repeat;
        background-size: cover;
   }
-  .header-logo {
-     margin: 0;
-  }
+  
 
   .header-wrapper {
-    min-width: 942px;
+    max-width: 942px;
     height: 700px;
     width: 100%;
     background-image: none;
+    margin: auto;
   }
   
   .header-navigation{
-     padding-top: 20px;
+     padding-top: 60px;
      display: flex;
      justify-content: space-between;
      flex-direction: row-reverse;
@@ -302,7 +306,7 @@ html {
     }
 
     .header-links {
-      padding: 0;
+      
       display: flex;
       justify-content: flex-end;
     }
