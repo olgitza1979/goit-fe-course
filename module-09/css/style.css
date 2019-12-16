@@ -80,7 +80,7 @@ html {
     /* text-align: center; */
  }
 
-  .masthead h2 {
+  .mainhead h2 {
     font-size: 30px;
     margin: auto;
     text-align: center;
@@ -94,7 +94,7 @@ html {
         border-radius: 20px;
         padding: 10px;
  } 
-.masthead p {
+.mainhead p {
   display: block;
   margin: auto;
   width: 220px;
@@ -232,17 +232,17 @@ html {
       background-repeat: no-repeat;
       background-size: cover;
   }
-  .masthead {
+  .mainhead {
     padding-left: 40px;
     padding-right: 40px;
   }
 
-  .masthead h2 {
+  .mainhead h2 {
     font-size: 52px;
     margin-bottom: 45px;
   }
  
-      .masthead p {
+      .mainhead p {
         width: 404px;
         margin: auto;
         margin-bottom: 40px;
@@ -279,12 +279,12 @@ html {
         margin-top: 60px;
         margin-bottom: 150px;
        }
-    .masthead p {
+    .mainhead p {
         width: 404px;
         margin: auto;
         margin-bottom: 55px;
       }
-      .masthead h2 {
+      .mainhead h2 {
         font-size: 52px;
         margin-bottom: 55px;
       }

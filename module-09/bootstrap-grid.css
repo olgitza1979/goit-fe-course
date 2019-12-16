@@ -17,40 +17,40 @@ html {
 
 .container {
   width: 100%;
-  /* padding-right: 15px;
-  padding-left: 15px; */
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
 
 @media (min-width: 576px) {
   .container {
-    max-width: 576px;
+    max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
   .container {
-    max-width: 768px;
+    max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
   .container {
-    max-width: 992px;
+    max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1200px;
+    max-width: 1140px;
   }
 }
 
 .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
   width: 100%;
-  /* padding-right: 15px;
-  padding-left: 15px; */
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -63,19 +63,19 @@ html {
 
 @media (min-width: 768px) {
   .container, .container-sm, .container-md {
-    max-width: 768px;
+    max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
   .container, .container-sm, .container-md, .container-lg {
-    max-width: 992px;
+    max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
   .container, .container-sm, .container-md, .container-lg, .container-xl {
-    max-width: 1200px;
+    max-width: 1140px;
   }
 }
 
@@ -84,8 +84,8 @@ html {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  /* margin-right: -15px;
-  margin-left: -15px; */
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 .no-gutters {
