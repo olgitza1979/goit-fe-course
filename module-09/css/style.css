@@ -81,6 +81,7 @@ html {
  }
 
   .mainhead h2 {
+   
     font-size: 30px;
     margin: auto;
     text-align: center;
@@ -106,7 +107,7 @@ html {
 .header-button {
   display: block;
   text-decoration: none;
-  width: 280px;
+  max-width: 280px;
   height: 40px;
   border: none;
   border-radius: 20px;
@@ -116,7 +117,7 @@ html {
   font-family: "Montserrat";
   color: #ffffff;
   font-weight: 700;
-  line-height: 30px;
+
   text-align: center;
   margin: 15px auto;
   padding: 3px 0;
