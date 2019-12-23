@@ -600,7 +600,7 @@ input[type='submit']{
   
 @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .toplayer {       
-        background: url(/img/background-img/picture@2x-min-min.jpg) no-repeat center top fixed;
+        background: url(../img/background-img/picture@2x-min-min.jpg);
 
 
        
